@@ -1,0 +1,74 @@
+/* rafting.css */
+/* Import Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;1,400&display=swap');
+/* Define CSS variables for color schema */
+:root {
+  --primary-color: #3498db;
+  --secondary-color: #2ecc71;
+  --text-color: #333;
+}
+
+/* General Styles */
+body {
+  font-family: 'Your Selected Font', sans-serif;
+  color: var(--text-color);
+  margin: 0;
+  padding: 0;
+}
+
+/* Heading and Paragraph Styles */
+h1, h2, h3, h4, h5, h6 {
+  color: var(--primary-color);
+}
+
+p {
+  line-height: 1.6;
+}
+
+/* Social Media Links */
+a.social-link {
+  text-decoration: none;
+}
+
+/* Page Width Limit */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Hero Container Styles */
+.hero {
+  position: relative;
+}
+
+.hero img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.hero h1,
+.hero article {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff; /* Adjust the color for readability */
+}
+
+.hero article {
+  background-color: rgba(0, 0, 0, 0.7); /* Adjust background color and opacity */
+  padding: 20px;
+  width: 80%;
+  text-align: center;
+  border-radius: 10px;
+}
+
+.hero article img {
+  float: right;
+}
+
+/* Additional Styles as Needed */
+main img {
+  float: left;
+}
