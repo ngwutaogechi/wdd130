@@ -2,14 +2,14 @@
 /* Import Google Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;1,400&display=swap');
 /* Define CSS variables for color schema */
-:root {
+:root{
   --primary-color: #3498db;
   --secondary-color: #2ecc71;
   --text-color: #333;
 }
 
 /* General Styles */
-body {
+body{
   font-family: 'Your Selected Font', sans-serif;
   color: var(--text-color);
   margin: 0;
@@ -24,6 +24,9 @@ h1, h2, h3, h4, h5, h6 {
 p {
   line-height: 1.6;
 }
+.section p {
+  line-height: 1.1;
+}
 
 /* Social Media Links */
 a.social-link {
@@ -31,39 +34,52 @@ a.social-link {
 }
 
 /* Page Width Limit */
-.container {
-  max-width: 1200px;
+header,.grid, footer {
+  max-width: 840px;
   margin: 0 auto;
 }
 
 /* Hero Container Styles */
 .hero {
   position: relative;
+  
 }
 
 .hero img {
-  display: block;
   width: 100%;
   height: auto;
 }
-
-.hero h1,
-.hero article {
+.hero h1,.hero article {
   position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  top: 45%;
+  left: 55%;
+  transform: translate(-50%, -35%);
   color: #fff; /* Adjust the color for readability */
-}
+  height: 17cap;
+}    
 
-.hero article {
-  background-color: rgba(0, 0, 0, 0.7); /* Adjust background color and opacity */
-  padding: 20px;
-  width: 80%;
+.hero h1{ 
+  background-color: rgba(0, 0, 0, 0.7); 
+  width: 110%;
+  height: 7%;
+  top: 20%;
   text-align: center;
   border-radius: 10px;
 }
 
+.hero article {
+  background-color: rgba(0, 0, 0, 0.43);
+  padding: 3px;
+  width: 90%;
+  height: 37%;
+  text-align: center;
+  border-radius: 1px;
+}
+
+
 .hero article img {
   float: right;
+  width: 30%;
+  height: 10cap;
 }
+
