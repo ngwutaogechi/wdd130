@@ -43,6 +43,31 @@ header,.grid, footer {
   max-width: 840px;
   margin: 0 auto;
 }
+form {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  gap: 10px;
+}
+
+form label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+form textarea {
+  width: 100%;
+  height: 100px;
+}
+
+form button {
+  background-color: var(--primary-color);
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
 
 /* Hero Container Styles */
 .hero {
@@ -56,18 +81,17 @@ header,.grid, footer {
 }
 .hero h1,.hero article {
   position: absolute;
-  top: 45%;
+  top: 20%;
   left: 54%;
   transform: translate(-49%, -40%);
   color: #fff;
- 
 }    
 
 .hero h1{ 
   background-color: rgba(0, 0, 0, 0.7); 
   width: 90%;
   height: 7%;
-  top: 20%;
+  top: 10%;
   text-align: center;
 }
 
@@ -75,7 +99,7 @@ header,.grid, footer {
   background-color: rgba(0, 0, 0, 0.43);
   padding: 3px;
   width: 90%;
-  height: 37%;
+  height: 15cap;
   text-align: center;
   border-radius: 1px;
 }
@@ -127,7 +151,7 @@ figure img {
   height: auto; 
   border: 5px solid #ddd; 
   border-radius: 5px; 
-  margin-top: 55px; 
+  margin-top: 55px;
 }
 
 /* Style the figcaption */
