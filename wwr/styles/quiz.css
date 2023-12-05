@@ -11,7 +11,7 @@ body {
 
 form {
     background-color: #fff;
-    border-radius: 8px;
+    border-radius: 5px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.0);
     padding: 10px;
     max-width: 405px;
@@ -19,7 +19,7 @@ form {
     box-sizing: border-box;
 }
 h5 {
-    background-color: black ;
+    background-color:rgba(0, 0, 0, 0.75) ;
     color: #f4f4f4;
     width: 70%;
     padding: 4%;
