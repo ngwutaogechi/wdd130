@@ -1,11 +1,11 @@
-/* Reset some default styles */
+/* Reseting some default styles */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-/* Set the background color for the body */
+/* Seting some the background color for the body */
 body {
   background-color: #f4f4f4;
   font-family: 'Arial', sans-serif; /* Use a common sans-serif font */
@@ -28,16 +28,22 @@ nav {
   justify-content: space-between;
   
 }
-/* Style for the navigation bar (adjust as needed) */
-nav ul {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-}
 
 nav li {
   display: inline-block;
-  margin-right: 70px; /* Adjust the spacing between navigation items */
+  margin-right: 70px;
+}
+
+li a {
+  text-decoration: none;
+  color: #fff;
+  font-family: Arial;
+  font-weight: bold;
+  transition: 0.4s ease-in-out;
+}
+
+ li a:hover {
+  color: #ff7200;  
 }
 
 /* Style the main content */
@@ -58,7 +64,7 @@ h2 {
   color: #333;
 }
 
-/* Style the call-to-action section */
+/* Styling the call-to-action section */
 section {
   background-color: #3498db;
   color: #fff;
@@ -66,7 +72,7 @@ section {
   text-align: center;
 }
 
-/* Style the trip descriptions */
+/* Styling the trip descriptions */
 .trip-description {
   margin-bottom: 30px;
 }
@@ -87,7 +93,7 @@ section {
   color: #555;
 }
 
-/* Style the table of available trips */
+/* Styling the table of available trips */
 .trip-table {
   margin-top: 30px;
 }
@@ -115,19 +121,25 @@ footer {
   padding: 20px;
   background-color: #333;
   color: #fff;
+  
 }
 
 /* Style social media icons */
 footer a {
   margin-right: 10px;
+  display: flex;
+  justify-content: space-between;
+  color: #f4f4f4;
+  padding: 1%;
+}
+footer a:hover {
+  color: blue;
 }
 
 footer img {
   width: 30px;
   height: 30px;
+  display: flex;
+  justify-content: space-between;  
 }
 
-
-
-
- 
