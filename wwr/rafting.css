@@ -143,3 +143,19 @@ footer img {
   justify-content: space-between;  
 }
 
+button {
+  background-color: orange;
+  color: #fff;
+}
+
+button:hover {
+ color: #333;
+}
+
+section a {
+  color: gray;
+  font-weight: bold;
+}
+section a:hover {
+  color: black;
+}
